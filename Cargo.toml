@@ -1,0 +1,12 @@
+[package]
+
+name = "crawler"
+version = "0.0.1"
+authors = [ "Igor Morozov <igmorv@gmail.com>" ]
+
+[dependencies]
+curl = "0.3.7"
+getopts = "0.2.14"
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
